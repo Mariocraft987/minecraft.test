@@ -1,0 +1,6 @@
+#screen {
+    border: 2px solid #000000;
+    background-color: limegreen;
+}
+
+/*<canvas id="screen" width="1000" height="600"></canvas>*/
