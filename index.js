@@ -12,11 +12,11 @@ function checkKey(e) {
 
     if (e.keyCode == '38') {
         // up arrow
-        Y -= 0 - speedY;
+        y -= speedY;
     }
     else if (e.keyCode == '40') {
         // down arrow
-        Y -= speedY;
+        y -= 0 - speedY;
     }
     else if (e.keyCode == '37') {
        // left arrow
@@ -26,6 +26,7 @@ function checkKey(e) {
        // right arrow
        x -= 0 - speedX;
     }
-    document.getElementById('player').innerHTML = "<p style='translate: " + x + "px " + y + "px;'>Player</p>";
+    console.log('X:' + x + ' Y:' + y)
+    document.getElementById('player').innerHTML = "<p style='translate: " + x + "px " + y + "px;'>웃</p>";
 
 }
