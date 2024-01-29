@@ -2,4 +2,5 @@
 This is a minecraft test made from javascript and html
 <hr>
 <br>
-WASD to move
+arrow keys to move<br/>
+https://mariocraft987.github.io/minecraft.test/
