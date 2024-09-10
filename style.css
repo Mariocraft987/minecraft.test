@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #screen {
     border: 2px solid #000000;
     background-color: limegreen;
