@@ -1,8 +1,8 @@
-let x = "0";
-let y = "0";
-let health = "100"
-let speedX = "5";
-let speedY = "5";
+let x = 40;
+let y = 0;
+let health = 100
+let speedX = 5;
+let speedY = 5;
 
 document.onkeydown = checkKey;
 
