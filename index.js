@@ -1,8 +1,11 @@
+let player = "웃";
 let x = 40;
 let y = 0;
 let health = 100
 let speedX = 5;
 let speedY = 5;
+
+document.getElementById('player').innerHTML = `<p style='translate: 0px 0px;'>${player}</p>`;
 
 document.onkeydown = checkKey;
 
@@ -26,6 +29,6 @@ function checkKey(e) {
        // right arrow
        x -= 0 - speedX;
     }
-    document.getElementById('player').innerHTML = "<p style='translate: " + x + "px " + y + "px;'>웃</p>";
+    document.getElementById('player').innerHTML = `<p style='translate: ${x}px ${y}px;'>${player}</p>`;
 
 }
