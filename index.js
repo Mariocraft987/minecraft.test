@@ -5,7 +5,7 @@ let health = 100
 let speedX = 5;
 let speedY = 5;
 
-document.getElementById('player').innerHTML = `<p style='translate: 0px 0px;'>${player}</p>`;
+document.getElementById('player').innerHTML = `<p style='translate: ${x}px ${y}px;'>${player}</p>`;
 
 document.onkeydown = checkKey;
 
