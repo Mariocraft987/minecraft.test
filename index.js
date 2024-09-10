@@ -10,23 +10,22 @@ function checkKey(e) {
 
     e = e || window.event;
 
-    if (e.keyCode == '38') {
+    if (e.keyCode == '87') {
         // up arrow
         y -= speedY;
     }
-    else if (e.keyCode == '40') {
+    else if (e.keyCode == '83') {
         // down arrow
         y -= 0 - speedY;
     }
-    else if (e.keyCode == '37') {
+    else if (e.keyCode == '65') {
        // left arrow
        x -= speedX;
     }
-    else if (e.keyCode == '39') {
+    else if (e.keyCode == '68') {
        // right arrow
        x -= 0 - speedX;
     }
-    console.log('X:' + x + ' Y:' + y)
     document.getElementById('player').innerHTML = "<p style='translate: " + x + "px " + y + "px;'>웃</p>";
 
 }
